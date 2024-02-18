@@ -1,0 +1,28 @@
+$backgroundColor: #433e37;
+$mainColor: #fff;
+
+.cost-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $backgroundColor;
+  padding: 0.8rem;
+  margin-bottom: 1.125rem;
+  font-size: 1.125rem;
+
+  & > {
+    border: 1px solid #999797;
+  }
+
+  .cost-item__description {
+    color: #fff;
+    text-align: right;
+    font-weight: 700;
+
+    .cost-item__price {
+      display: inline-block;
+      padding: 0.3125rem 0.625rem;
+      margin-bottom: 0.625rem;
+    }
+  }
+}

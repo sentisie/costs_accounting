@@ -1,0 +1,16 @@
+$mainColor: #fff;
+
+.cost-date {
+  min-width: 6.875rem;
+  padding: 0.75rem 0.875rem;
+  text-align: center;
+  color: $mainColor;
+
+  & :not(:nth-child(2)) {
+    font-weight: 700;
+  }
+
+  & :last-child {
+    font-size: 1.875rem;
+  }
+}

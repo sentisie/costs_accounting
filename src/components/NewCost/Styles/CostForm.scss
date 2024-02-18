@@ -1,0 +1,49 @@
+$fz: 1.125rem;
+
+.new-cost__controls {
+  display: flex;
+  flex-direction: column;
+  font-size: $fz;
+  max-width: 22.5rem;
+
+  & > :not(:last-child) {
+    margin-bottom: 1.25rem;
+  }
+  .new-cost__control {
+    display: flex;
+    flex-direction: column;
+
+    label {
+      font-weight: 700;
+      margin-bottom: 0.625rem;
+    }
+
+    input {
+      min-height: 2.5rem;
+      padding: 0.3125rem 0.625rem;
+      border-radius: 12px;
+    }
+  }
+  .new-cost__actions {
+    display: flex;
+    gap: 0.625rem;
+
+    & :first-child {
+      flex-shrink: 0;
+      width: 60%;
+    }
+
+    & :last-child {
+      flex-shrink: 1;
+      width: 40%;
+    }
+  }
+}
+
+button {
+  color: #fff;
+  border-radius: 18px;
+  background-color: #4179d4d3;
+  padding: 1.125rem 1.875rem;
+  font-size: $fz;
+}
